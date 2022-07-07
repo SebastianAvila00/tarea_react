@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to bottom, red 55%,  white 0%);
+    font-size: 1.6em;
+    font-family: sans-serif;
+    border-radius: 100%;
+    border: solid 1px ;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(122,122,122,1);
+    box-shadow: 10px 10px 5px 0px rgba(122,122,122,1);
+}
+
+.pokemon {
+    height: 200px;
+    width: 200px;
+}
