@@ -2,11 +2,11 @@ import React from "react";
 import "../hojas-estilos/Boton.css"
 
 
-function Boton( {texto,} ) {
+function Boton( {texto, cambiarPagina} ) {
 
     return(
 
-        <button >
+        <button onClick={cambiarPagina}>
             {texto}
         </button>
 

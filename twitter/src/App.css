@@ -1,0 +1,24 @@
+body {
+  background-color: #3ab0eb;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+p{
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+}
