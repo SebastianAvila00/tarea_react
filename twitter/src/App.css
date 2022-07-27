@@ -1,24 +1,410 @@
-body {
-  background-color: #3ab0eb;
+/* Inicio Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
   display: flex;
-  justify-content: center;
+}
+
+/* Fin Estilos Generales */
+
+
+/* Inicio Estilos Menú */
+.menu {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 402px;
+  border-right: 1px rgb(195, 192, 192);
 
 }
 
-h1 {
-  text-align: center;
+.logo-twitter {
+  height: 25px;
+  width: 30px;
+  margin: 5px 150px;
+}
+
+
+.logo-menu {
+  height: 35px;
+  width: 40px;
+}
+
+.lista-menu {
+  list-style: none;
+  margin: 5px 100px;
+  transition: 500ms;
+  padding: 10px;
+  width: max-content;
+}
+
+.lista-menu:hover {
+  background-color: rgb(206, 206, 206);
+  border-radius: 50px;
+  width: max-content;
+  transition: 500ms;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  margin: 0px 20px;
+}
+
+
+.icon-menu {
+  padding: 6px 20px;
+}
+
+.btn-celeste {
+  margin: 20px 120px;
+  height: 50px;
+  width: 220px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #1D9BF0;
   color: #fff;
-  text-decoration: underline;
-  font-weight: 900;
+  font-size: 1.2em;
+  transition: 500ms;
+  border: none;
 }
 
-h3 {
-  text-align: center;
+.btn-celeste:hover {
+  background-color: #1b86cd;
+  transition: 500ms;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.foto-perfil {
+  padding: 0px 10px;
+  margin-left: 120px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.puntitos-user {
+  margin: 0px 550px;
+}
+
+.cont-user {
+  display: flex;
+  align-items: flex-end;
+}
+
+.punto {
+  margin-left: 40px;
+  margin-bottom: 5px;
+
+}
+
+/* Fin Estilos Menú */
+
+
+/* Inicio Estilos Tablero */
+
+
+.tablero {
+  margin-left: 402px;
+  width: 596px;
+  border: solid 1px rgb(195, 192, 192);
+}
+
+.mi-twit {
+  height: 200px;
+  width: 596px;
+}
+
+.text-inicio {
+  font-weight: 700;
+  margin: 10px 50px;
+}
+
+
+.cont-text-twit {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.foto-mi-twit {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+
+
+.text-tweet {
+  height: max-content;
+  width: 502px;
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+.text-tweet:focus {
+  outline: none;
+}
+
+.text-tweet:empty::before {
+  position: absolute;
+  content: "¿Qué está pasando?";
+  color: gray;
+  cursor: text;
+}
+
+
+.footer-mi-twit {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+.icons-mi-twit {
+  font-size: 1.3em;
+  color: skyblue;
+  cursor: pointer;
+}
+
+.btn-chiquito {
+  height: 30px;
+  width: 90px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #1D9BF0;
   color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  transition: 500ms;
+  border: none;
 }
 
-p{
-  text-align: center;
+.btn-chiquito:hover {
+  background-color: #1b86cd;
+  transition: 500ms;
+}
+
+hr {
+  margin-top: 28px;
+  color: #f01d1d;
+}
+
+
+.cont-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 5px;
+}
+
+.img-user {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.perfil-user {
+  text-decoration: none;
   color: #000;
-  background-color: #fff;
+  font-weight: 700;
+  margin: 0px 10px;
 }
+
+.arroba-user {
+  color: rgb(117, 117, 117);
+}
+
+.twit-user {
+  height: 70px;
+  width: 500px;
+  padding: 0px 20px;
+  margin-left: 50px;
+}
+
+
+.cont-footer-twit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon-footer-user {
+  font-size: 1.2em;
+  color: rgb(175, 175, 175);
+}
+
+/* Fin Estilos Tablero */
+
+/* Inicio Estilos Sugerencias */
+
+.sugerencias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1001px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 402px;
+}
+
+/* Inicio Header Sugerencias */
+
+.cont-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+  margin: 5px 17px;
+  height: 40px;
+  width: 90%;
+  border-radius: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+.fa-magnifying-glass {
+  color: rgb(121, 121, 121);
+}
+
+.input-search {
+  border-radius: 50px;
+  width: 80%;
+  height: 40px;
+  border: none;
+  font-size: 1em;
+  background-color: rgb(235, 235, 235);
+}
+
+.input-search:focus {
+  outline: none;
+}
+
+/* Fin Header Sugerencias */
+
+/* Inicio Seccion Tendencias */
+
+.cont-tendencias {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 80%;
+  background-color: rgb(227, 227, 227);
+  border-radius: 20px;
+}
+
+.que-pasa {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.tendencias {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+  transition: 300ms;
+}
+
+.tendencias:hover {
+  background-color: rgb(197, 197, 197);
+  transform: 300ms;
+}
+
+
+.tendencia-sugerencia {
+  margin-left: 5px;
+  font-size: .9em;
+  color: rgb(86, 86, 86);
+}
+
+.contenido-sugerencia {
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+
+.vistas-sugerencias {
+  margin-left: 5px;
+  font-size: .9em;
+  color: rgb(86, 86, 86);;
+}
+
+.mas-sugerencia {
+  color: #1D9BF0;
+  margin: 5px 10px;
+  font-size: 15px;
+}
+
+/* Fin Seccion Tendencias */
+
+/* Inicio Seccion Seguir */
+
+.cont-quien-seguir {
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 210px;
+  width: 80%;
+  background-color: rgb(227, 227, 227);
+}
+
+
+.cont-seguir {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+}
+
+.nombre-seguir{
+  font-weight: 700;
+}
+
+.arroba-seguir{
+  color: rgb(86, 86, 86);
+}
+
+.cont-seguir:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+
+.btn-negro {
+  margin: 0px 10px;
+  height: 35px;
+  width: 110px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-size: .9em;
+  transition: 500ms;
+}
+
+/* Fin Seccion Seguir */
