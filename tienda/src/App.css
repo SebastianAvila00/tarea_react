@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cont-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-image: url("https://c8.alamy.com/compes/t2aadd/foto-panoramica-de-verduras-y-frutas-saludables-contra-la-pared-de-madera-ligera-espacio-libre-para-el-texto-t2aadd.jpg");
+  height: 300px;
+  width: 100%;
+}
+
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.cont-lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.btn {
+  font-size: 1em;
+  font-weight: 700;
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(188, 116, 15);
+  cursor: pointer;
+  border: solid 1px gray;
+  margin: 10px;
+  transition: 500ms;
+}
+
+.btn:hover {
+  height: 45px;
+  width: 105px;
+  transition: 500ms;
+}
+
+.btn:hover {
+  background-color: rgb(230, 157, 54);
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.cont-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  height: 550px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+  -moz-box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+  box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+}
+
+.head-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 230px;
+  background: linear-gradient(to bottom, rgb(227, 188, 13), white);
+}
+
+.foot-card {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 270px;
+  background: linear-gradient(to bottom, rgb(249, 249, 249), rgb(227, 188, 13));
+}
+
+h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 125px;
+}
+
+img {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.detalle {
+  font-size: 1em;
+}
+
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-image: url("https://c8.alamy.com/compes/t2aadd/foto-panoramica-de-verduras-y-frutas-saludables-contra-la-pared-de-madera-ligera-espacio-libre-para-el-texto-t2aadd.jpg");
+}
+
+.cont-link {
+  width: 100%;
+}
+
+.lista-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li a {
+  margin: 5px;
+  background-color: rgba(168, 111, 6, 0.603);
+  border-radius: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+li a:hover {
+  background-color: rgba(123, 82, 7, 0.603);
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cont-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  height: 600px;
+  width: 500px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, rgb(227, 188, 13), rgba(202, 156, 19, 0.728));
+  -webkit-box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+  -moz-box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+  box-shadow: 10px 5px 29px 0px rgba(115, 114, 115, 1);
+}
+
+.titulo-input {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.input-form {
+  margin: 15px 0px;
+  height: 30px;
+  width: 210px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+ float: left;
+}

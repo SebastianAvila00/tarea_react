@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cebolla",
+        "Imagen": "https://5aldia.cl/wp-content/uploads/2018/03/cebolla.jpg",
+        "altImagen": "Imagen Cebolla",
+        "descripcion": "Cebollas maduras de gran tamaño recien cosechadas"
+    },
+    {
+        "id": 2,
+        "nombre": "Morrón",
+        "Imagen": "https://pescaderialaprimavera.com/wp-content/uploads/2021/11/morron-rojo.jpg",
+        "altImagen": "Imagen Morrón",
+        "descripcion": "Morrones grandes con su piel roja, brillante, lisa y sin manchas"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Zapallo",
+        "Imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/472994-800-auto?v=636695569887800000&width=800&height=auto&aspect=true",
+        "altImagen": "Imagen Zapallo",
+        "descripcion": "Gran Zapallo muy valorado por sus importantes valores nutricionales"
+    }
+]
