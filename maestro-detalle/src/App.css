@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(156, 33, 152, 0.721);
+}
+
+.btn-nav {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(145, 37, 167, 0.699);
+}
+
+
+.btn-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.btn-nav:hover {
+    background-color: rgba(201, 43, 232, 0.699);
+
+}
+
+/* Fin Header */
+
+
+/* HomePage */
+
+h2 {
+    font-size: 1.6em;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 350px;
+    text-align: center;
+    color: white;
+    background-color: rgba(156, 33, 152, 0.721);
+}
+
+
+.propaganda {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.propaganda p {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    width: 600px;
+    margin: 0px 50px;
+}
+
+.img-teach {
+    border-radius: 20px;
+    margin: 0px 100px;
+    height: 300px;
+    width: 500px;
+}
+
+.presentacion-maestro {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn-maestro {
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 140px;
+    background-color: rgba(127, 20, 149, 0.943);
+
+}
+
+.btn-maestro a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-family: sans-serif;
+
+}
+
+/* Fin HomePage */
+
+
+
+/* MasterPage */
+
+.btn-maestro:hover {
+    background-color: rgba(154, 30, 179, 0.881);
+
+}
+
+/* Fin MasterPage */
+
+
+/* Api */
+
+.cont-api {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+
+.lista-api {
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+.link-name {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.link-name:hover {
+    color: blue;
+   
+}
+
+/* Fin Api */
+
+
+
+/* DetailsPage */
+
+.cont-details{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-p{
+    border: solid 5px rgb(215, 16, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(237, 233, 238);
+    border-radius: 40px;
+}
+
+
+.cont-p p{
+    border-radius: 100px;
+    text-align: center;
+    height: 40px;
+    width: max-content;
+    font-size: 1.6em;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+/* Footer */
+
+.cont-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: rgba(156, 33, 152, 0.721);
+    height: 82px;
+    width: 100%;
+
+}
