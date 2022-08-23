@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+
+header {
+  background-image: url("https://c8.alamy.com/compes/t2aadd/foto-panoramica-de-verduras-y-frutas-saludables-contra-la-pared-de-madera-ligera-espacio-libre-para-el-texto-t2aadd.jpg");
+  height: 300px;
+  margin: 00px 0px 20px 0px;
+}
+
+
+.title {
+  padding: 70px 0px;
+  color: black;
+ font-size: 2.5em;
+ font-weight: 700;
+ font-family: sans-serif;
+}
+
+
+.valor{
+  font-size: 1.2em;
+}
+
+
+.acciones{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-accion{
+  margin: 0px 10px;
+}
+
+
+
+
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-image: url("https://c8.alamy.com/compes/t2aadd/foto-panoramica-de-verduras-y-frutas-saludables-contra-la-pared-de-madera-ligera-espacio-libre-para-el-texto-t2aadd.jpg");
+}
+

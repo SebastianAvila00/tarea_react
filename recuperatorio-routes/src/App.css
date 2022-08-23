@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* INICIO NAV */
+
+.cont-header {
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/d623182f-878a-41df-9833-313d90d52ea4/sitio-web-oficial-de-nike.png");
+  height: 70px;
+
+}
+
+
+.logo {
+  color: white;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.cont-input {
+  background-color: rgb(254, 254, 254);
+  margin: 20px;
+  height: 27px;
+  width: 250px;
+  border-radius: 50px;
+}
+
+.buscador {
+  height: 24px;
+  width: 230px;
+  margin-left: 10px;
+  border: none;
+  font-size: 1em;
+}
+
+.buscador:focus {
+  outline: none;
+}
+
+.cont-footer {
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/d623182f-878a-41df-9833-313d90d52ea4/sitio-web-oficial-de-nike.png");
+  height: 70px;
+  margin-top: 50px;
+}
+
+/* FIN NAV */
+
+
+/* https://i.pinimg.com/originals/cb/3d/ae/cb3dae0b7dc4e07f103bcaa1c60677b1.jpg
+*/
+
+/* INICIO INDEX */
+
+.img-cartel {
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/d623182f-878a-41df-9833-313d90d52ea4/sitio-web-oficial-de-nike.png");
+  height: 700px;
+}
+
+.frase {
+  color: whitesmoke;
+  padding-top: 255px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 3.0em;
+  font-weight: 800;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.presentacion {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+  color: rgb(109, 109, 109);
+
+}
+
+
+.cont-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background-image: url("https://i.pinimg.com/originals/cb/3d/ae/cb3dae0b7dc4e07f103bcaa1c60677b1.jpg");
+  margin-top: 70px;
+  height: 600px;
+  width: 450px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(117, 117, 117, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(117, 117, 117, 1);
+  box-shadow: 10px 10px 5px 0px rgba(117, 117, 117, 1);
+
+}
+
+.head-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-obj {
+  font-style: italic;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 1.6em;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.img-zapas {
+  height: 250px;
+  width: 300px;
+  border-radius: 50px;
+  border: solid 2px;
+}
+
+
+.foot-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.nombre-zapa {
+  color: white;
+  font-size: 2em;
+}
+
+.precio {
+  margin-top: 50px;
+  font-size: 2em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+
+.boton {
+  background-color: rgb(82, 163, 221);
+  height: 30px;
+  width: 120px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  color: #000;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 400ms;
+  background-color: rgb(38, 117, 173);
+}
+
+/* FIN INDEX */
+
+/* INICIO DETAILS */
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.titulo {
+  font-size: 1.9em;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.descripcion {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detalles-desc {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 1.6em;
+  color: white;
+  border-radius: 50px;
+}
+
+.cont-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIN DETAILS */

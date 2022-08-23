@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "Imagen": "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw8abed4db/products/NI_315115-112/NI_315115-112-1.JPG", 
+        "altImagen": "Imagen Zapatillas",
+        "titulo": "Zapatillas",
+        "nombre": "Air force one",
+        "descripcion": "Air force 1 marca Nike",
+        "tamaño": 42,
+        "color": "Blanco",
+        "precio": 27.999
+    },
+    {
+        "id": 2,
+        "Imagen": "https://nikeclprod.vteximg.com.br/arquivos/ids/257751-1000-1000/DO2194_001_A_PREM.jpg?v=637716426622930000", 
+        "altImagen": "Imagen Zapatillas",
+        "titulo": "Zapatillas",
+        "nombre": "Air max",
+        "descripcion": "Air max celestes marca Nike",
+        "tamaño": 41,
+        "color": "Turquesa, blanco y negro",
+        "precio": 21.999
+    },
+    {
+        "id": 3,
+        "Imagen": "https://media.revistagq.com/photos/619539d9e834a27ca4435705/master/w_1600%2Cc_limit/air%2520jordan%25201.jpeg", 
+        "altImagen": "Imagen Zapatillas",
+        "titulo": "Zapatillas",
+        "nombre": "Jordan one",
+        "descripcion": "Jordan 1 marca Nike",
+        "tamaño": 45,
+        "color": "Rojo y blanco",
+        "precio": 17.995
+    },
+    {
+        "id": 4,
+        "Imagen": "https://crocsarg.vtexassets.com/arquivos/ids/165344/ Imagen-1.jpg?v=637931776642130000", 
+        "altImagen": "Imagen Crocs",
+        "titulo": "Crocs",
+        "nombre": "Crocs",
+        "descripcion": "Crocs Celestes",
+        "tamaño": 37,
+        "color": "Celeste",
+        "precio": 10.299
+    },
+    {
+        "id": 5,
+        "Imagen": "https://static.vecteezy.com/system/resources/previews/003/016/751/non_2x/men-s-classic-brown-leather-shoes-free-photo.jpg", 
+        "altImagen": "Imagen Zapato",
+        "titulo": "Zapatos",
+        "nombre": "Zapatos clasico",
+        "descripcion": "Zapatos clasico",
+        "tamaño": 40,
+        "color": "Morrón",
+        "precio": 8.999
+    },
+ 
+    {
+        "id": 6,
+        "Imagen": "https://www.tienda.quonam.com.ar/media/catalog/product/cache/d38be127ecf06dfec35606e11d013cfe/9/5/950-157197C-NEGRO_1_20.jpg",
+        "altImagen": "Imagen Morrón",
+        "titulo": "Zapatillas",
+        "nombre": "Converse all star",
+        "descripcion": "Converse all star",
+        "tamaño": 38,
+        "color": "Negro",
+        "precio": 14.995
+    }
+]
